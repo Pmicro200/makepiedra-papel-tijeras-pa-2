@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="1x#0*xy4H8Kg(aq}Kp8}" x="20" y="20"/><block type="device_forever" id="8@1XjxmIy01nWO*;x]+V" x="225" y="20"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="@Mg/}zj_KD(=;AzoA_k;">mi jugadinha</variable></variables><block type="pxt-on-start" id="1x#0*xy4H8Kg(aq}Kp8}" x="0" y="0"/><block type="device_forever" id="8@1XjxmIy01nWO*;x]+V" x="205" y="0"/><block type="device_gesture_event" id="IAQ2qAyU+(vd%Q88$,hK" x="27" y="151"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="JJ}VQ#9lhvh!Ih9G:FG~"><field name="VAR" id="@Mg/}zj_KD(=;AzoA_k;">mi jugadinha</field><value name="VALUE"><shadow type="math_number" id="u9C@-lUTH}~?@+caEQ}s"><field name="NUM">0</field></shadow><block type="device_random" id="Ga?dFd6s5`7BL8-*0hPh"><value name="min"><shadow type="math_number" id="!C0:x^CRo[Il(qPn.mb]"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="vxe%=oi5K6MR9$`,b-l{"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="%(@mBh_{k`.P+N^b1!aW"><mutation elseif="2"/><value name="IF0"><shadow type="logic_boolean" id="[q1FX]w#J$.YrS+k,LN3"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="XM0=$VZG9It/603Sdc#T"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="DHRzZ@43/!jr%4Qd*f~5"><field name="NUM">0</field></shadow><block type="variables_get" id="D]YI:)A:oT[.,PSm+UV#"><field name="VAR" id="@Mg/}zj_KD(=;AzoA_k;">mi jugadinha</field></block></value><value name="B"><shadow type="math_number" id=":0}Vfs%_AGQDUFDqzy7["><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=@wpzLEfw;TXHyDNoX0h"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # # # # # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="e7z]R2QsO]3CP#M|Rs/M"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="]j+S{vn=otV,GLUqR}:F"><field name="VAR" id="@Mg/}zj_KD(=;AzoA_k;">mi jugadinha</field></block></value><value name="B"><shadow type="math_number" id="M(*--KW;/7$eHKY21EP8"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="-p[`Y]!3;(m=3z+.q?80"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
